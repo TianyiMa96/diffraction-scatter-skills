@@ -3,13 +3,19 @@
 > pyFAI 衍射/散射数据处理技能包 — AI 编码agent专用工具集
 > pyFAI-based diffraction/scattering data processing skill package for AI coding agents
 
+---
+
+本项目基于 [ESRF](https://www.esrf.eu/) 的 **pyFAI**、**fabio**、**silx** 三个核心开源项目构建，感谢 ESRF 及所有贡献者。
+
+Built on **pyFAI**, **fabio**, and **silx** — core open-source projects from [ESRF](https://www.esrf.eu/).
+
+---
+
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![pyFAI](https://img.shields.io/badge/pyFAI-2024.1%2B-orange.svg)](https://www.silx.org/doc/pyFAI/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](#installation)
 [![Last Commit](https://img.shields.io/github/last-commit/TianyiMa96/diffraction-scatter-skills/main.svg)](https://github.com/TianyiMa96/diffraction-scatter-skills/commits/main)
-
-[English](#english) | [中文](#中文)
 
 ---
 
@@ -43,7 +49,13 @@
 
 **diffraction-scatter-skills** is a pyFAI-based diffraction/scattering data processing skill package designed for AI coding agents (OpenCode, ClawHub, SkillHub, etc.). It provides ready-to-use CLI scripts and a Python library for post-calibration azimuthal integration of X-ray diffraction data (WAXS/SAXS/GIWAXS/XRD).
 
+### 关于本技能包 / About This Skill
+
+本技能包是**学习 AI Skills 开发**的实践项目，旨在帮助用户（尤其是无较深 X 射线衍射背景的开发者）在 AI agent 中更便捷地使用 pyFAI 进行数据处理。
+
 本技能包是**个人项目**，并非 ESRF 或 pyFAI/silx/fabio 团队的官方发布。它基于 pyFAI 的成熟积分引擎，为 AI agent 封装了从几何校准文件（.poni）到一维/二维积分结果的完整批处理工作流。
+
+This skill package is a **learning project for AI Skills development**, created by **Claude AI-creator**, designed to help users (especially those without a deep X-ray diffraction background) use pyFAI more easily within AI agents.
 
 This skill package is a **personal project**, not an official release from ESRF or the pyFAI/silx/fabio teams. It wraps pyFAI's mature integration engine into a complete batch-processing workflow — from a .poni geometry file to 1D/2D integration results — tailored for AI agents.
 
@@ -527,6 +539,12 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+---
+
+**This is a personal learning project created by Claude AI-creator. It is NOT an official release from ESRF or the pyFAI/silx/fabio teams.**
+
+**本项目为 Claude AI-creator 创建的个人学习项目。它不是 ESRF 或 pyFAI/silx/fabio 团队的官方发布。**
 
 ---
 
